@@ -46,7 +46,7 @@ return fetchUserData(reqUrl4)
 // 5 Get 5 Female Users from the Colombia
 // Call the fetchUserData function with this URL
 
-let reqUrl5= "https://randomuser.me/api/?gender=female&nat=fr"
+let reqUrl5= "https://randomuser.me/api/?gender=female&nat=fr&results=5"
 return fetchUserData(reqUrl5)
 
 
